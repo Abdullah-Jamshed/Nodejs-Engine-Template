@@ -19,7 +19,6 @@ app.set("views", templatePath);
 hbs.registerPartials(partialsPath);
 
 app.get("/", (req, res) => {
-  //   res.send("Hello from express");
   res.render("index", { name: "Abdullah" });
 });
 
